@@ -1,16 +1,18 @@
 {
-    "name": "xgeq/as",
+    "name": "xgeq/MyHelper",
     "authors": [
         {
             "name": "sdf"
         }
     ],
     "require": {
-		"php": "^7.4 || ^8.0",
-		"ext-json": "*" 
-	},
-	"license": "MIT",
-	"autoload": { 
-		"psr-4": { "Composer\\": "src/" }
-	}
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xgeq\\MyHelper\\": "src/"
+        }
+    }
 }
