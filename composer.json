@@ -1,0 +1,16 @@
+{
+    "name": "xgeq/as",
+    "authors": [
+        {
+            "name": "sdf"
+        }
+    ],
+    "require": {
+		"php": "^7.4 || ^8.0",
+		"ext-json": "*"  # 如果需要特定扩展
+	},
+	"license": "MIT",
+	"autoload": { 
+		"psr-4": { "Composer\\": "src/" }
+	}
+}
